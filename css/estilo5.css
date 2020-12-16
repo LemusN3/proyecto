@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    margin-top: 40px;
+
+
+}
+
+.columna6 {
+    background-image: url(../img/infor.jpg);
+    border-radius: 1%;
+    margin-right: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.columna6 h4 {
+    font-family: 'lato', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.columna6 p{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

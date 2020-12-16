@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Sansita+Swashed:wght@800&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FBF4EE;
+    font-family: 'Lato', sans-serif;
+        
+}
+section{
+    margin-top: 40px;
+
+}
+
+.esti {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+     padding: 40px;
+}
+
+.esti h1{
+   font-family: 'lato', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.cua{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cua .cuadro{
+    background: #4AA4FF;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    color: #000;
+    position: relative;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.45);
+    border-radius: 1%;
+    
+}
+.cua .cuadro h3{
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+.cua .cuadro p.prenda{
+    color: #0E002B;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.cua .cuadro .imag{
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+   
+    
+}
+
+.cua .cuadro .imag img{
+     width: 265px;
+    height: 265px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center; 
+     border-radius: 100%;
+}
+
+
+
+section h6{
+    margin-bottom: 10px;
+   font-size: 22px;
+   text-align: center;
+}
+
+
+
+.map{
+     width: 100%;
+    max-width: 1200px;
+     padding: 40px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+.part1{
+    max-width: 600px;
+}
+
+.part1 h5{
+     font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.part1 iframe{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.part2{
+     max-width: 600px;
+}
+
+.part2 h5{
+     font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.info1{
+  width: 300px;
+    height: 300px;
+    margin-top: 10px;  
+}
+.info1 p{
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px
+}
+.info2{
+  width: 300px;
+    height: 300px;
+    margin-top: 10px;  
+}
+
+.info2 p{
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+   
+}
+.full{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+     padding: 40px;
+}
+.cont-b{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.columna1{
+    max-width: 400px;
+    
+}
+
+.columna1 h4{
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.columna1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+columna2{
+    max-width: 400px;
+    
+}
+.columna2 h4{
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+}
+.filas{
+    margin-top: 20px;
+    display: flex;
+}
+.filas img{
+    width: 36px;
+    height: 36px;
+}
+.filas label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+.columna3{
+    max-width: 400px;
+    
+}
+.columna3 h4{
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+.filas2{
+    margin-top: 20px;
+    
+}
+.filas2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.filas2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 150px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .map{
+        flex-wrap: wrap;
+    }
+      .info1,
+    .info2{
+        margin-top: 10px;
+    }
+    
+     .cont-b{
+        flex-wrap: wrap;
+    
+    }
+    .columna1,
+    .columna2{
+        margin-top: 40px;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
